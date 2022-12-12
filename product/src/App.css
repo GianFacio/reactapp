@@ -1,0 +1,37 @@
+.card{
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+	background: linear-gradient(-45deg, #f29679, #e88aae, #7bc5e0, #83e7d0);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+.button
+{
+	color:rgb(255, 255, 255);
+	background-color: #0b86d8;
+    padding: 5px;
+}
+.span
+{
+	margin: 10px;
+
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
